@@ -45,6 +45,7 @@ enum custom_keycodes {
     SLEEP_MODE,
     BAT_SHOW,
     MAC_DND,
+    MAC_GLOBE,
     BAT_NUM,
     RGB_TEST
 };

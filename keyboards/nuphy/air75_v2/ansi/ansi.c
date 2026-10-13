@@ -582,6 +582,10 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
             }
             return false;
 
+        case MAC_GLOBE:
+            host_consumer_send(record->event.pressed ? 0x029D : 0);
+            return false;
+
         case MAC_PRT:
             if (record->event.pressed) {
                 register_code(KC_LGUI);

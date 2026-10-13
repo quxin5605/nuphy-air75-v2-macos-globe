@@ -186,6 +186,10 @@
     {
 		"name": "Mac\nDND",
 		"title": "Mac DND"
+	},
+	{
+		"name": "Mac\nGlobe",
+		"title": "Mac Globe"
 	}
 ]
 }
